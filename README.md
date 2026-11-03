@@ -1,5 +1,7 @@
 # NHL '94 in C
 
+> **Credits:** built on [NHL94Genesis](https://github.com/abdulahmad/NHL94Genesis) by abdulahmad, with chaos, StaticEck, McMarkis (Mhopkinsinc) and Drezz, and special thanks to smozoma and kingraph. See [Credits](#credits).
+
 The whole of NHL '94 for the GENS as C code: about 19,000 lines, one file
 per module of the original assembly and one function per routine, each named after its original
 label. It plays as the cartridge does, frame for frame, without the cartridge's slowdown. Nothing
@@ -99,3 +101,14 @@ the original's own path, and the result checked frame for frame against it. The 
 are pulseman's too. The routine and RAM names are those of the community's byte-matching rebuild
 of the original assembly. The cutting down, the comments and the documents are iDNi Studios'
 (MIT, `LICENSE`).
+
+## Credits
+
+This port is built on the community's byte-matching disassembly **NHL94Genesis** by
+**abdulahmad** (https://github.com/abdulahmad/NHL94Genesis): every routine, RAM and file name here comes from it. Thanks to
+**chaos**, **StaticEck**, **McMarkis (Mhopkinsinc)** and **Drezz** for their help with that
+disassembly, with special thanks to **smozoma** and **kingraph**. The C is **1nput**'s [ninety-four](https://github.com/1nputs/ninety-four) v0.3.6 (MIT); the cut-down to the game alone is **iDNi Studios**' (INDIO).
+
+Anyone building on this repository (a mod, hack, port, fork or release) must carry this credit,
+near the top of their README and in the notes of every release and any text file shipped in a
+release archive. See AGENTS.md.
