@@ -24,3 +24,4 @@ What decides each kind of name and place in the C ports. Workers and the splitte
 ## Learned
 
 (One line per correction, newest last.)
+* 2026-11-04: CONTRIBUTING.md must not contradict History: lineage lives only in the asm repositories' `docs/name_map.csv`, never in source comments. (CONTRIBUTING rewrite vs RULES History row)

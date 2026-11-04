@@ -23,6 +23,8 @@ Rules: [AGENTS.md](../AGENTS.md), [RULES.md](RULES.md), [VANILLA.md](VANILLA.md)
   The HAL and run loop in that binary are ninety-four's (`platform/hal.c` is a cut of the same file without the
   counters lockstep needs); `game/` and `platform/` are unchanged.
 
+2026-11-04: CONTRIBUTING.md added. Work stays on `claude/project-thread-4gad59`; do not merge to main. This repo stays ignored (Abdul, 2026-11-03).
+
 ## Next, in order
 
 1. ~~Reproduce `test/expected.txt` from public code~~ (done 2026-11-03, see Results).
